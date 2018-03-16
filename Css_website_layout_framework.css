@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Averia Serif Libre','Microsoft JhengHei', DFKai-sb, PMingLiU;
-    
+    user-select: none;
 }
 header {
     text-align: center;
