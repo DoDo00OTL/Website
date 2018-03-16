@@ -1,0 +1,36 @@
+article {
+    background-image: url("photo/pexels-photo-258109.jpeg");
+    width: 90%;
+    background-clip: padding-box;
+    background-size: cover;
+    overflow: hidden;
+}
+.Content {
+    width: 70%;   
+}
+
+.Rightcontent {
+    width: 25%;
+}
+.Content_1 {   
+    display: block;
+}
+.Content_2 {    
+    display: block;
+}
+.Rightcontent1 {
+    display: block;
+}
+.Rightcontent2 {
+    display: block;
+}
+@media only screen and (max-width:600px) {
+    .Content, .Rightcontent {
+        width: 100%;
+    }
+   
+    .Content_1, .Content_2, .Rightcontent1, .Rightcontent2 {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,139 @@
+.ul_no_list {
+    list-style-type: none;
+}
+nav {
+    width: 100%;
+    height: 5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.Menu {
+    background: linear-gradient(to right bottom, rgb(34, 67, 116), rgb(29, 20, 65)90% );
+    list-style-type: none;
+    border-radius: 0.5rem;
+    padding: 0;
+    height: 5rem;
+    
+}
+
+.Menu li {
+    position: relative;
+    white-space: nowrap;
+    
+    
+}
+.Menu>li {
+    float: left;
+    width: 20%;
+}
+
+.Menu li:last-child {
+    float: right;
+    position: relative;
+}
+
+.Menu a {
+    font-size: 1.3rem;
+    display: block;
+    line-height: 5rem;
+    text-align: center;
+    height: 5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    color: white;
+    text-decoration-line: none;
+    border-radius: 0.5rem;
+
+}
+
+.Menu li a:link {
+    background: linear-gradient(to right bottom, rgba(41, 80, 139, 0.8), rgb(29, 20, 65)90% );
+}
+
+.Menu i a:visited {
+    background: linear-gradient(to right bottom, rgba(41, 80, 139, 0.8), rgb(29, 20, 65)90% );
+}
+
+.Menu li a:hover {
+    background: linear-gradient(to right bottom, rgb(67, 112, 180), rgb(72, 58, 124)80% );
+}
+
+.Menu li a:active {
+    background: linear-gradient(to right bottom, rgb(67, 112, 180), rgb(72, 58, 124)80% );
+}
+.Menu li:hover>a {
+    background-color: gray;
+
+}
+.Menu ul {
+    background-color: rgb(54, 54, 54);
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    height: 5rem;
+    z-index: 10;
+    top: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    
+}
+.Menu ul li {
+    width: 100%;
+}
+.Menu ul ul {
+    
+    top: 0.625rem;
+    left:90%;
+}
+/* 次層隱藏 */
+.Menu ul {
+    left:-9999rem;
+    opacity:0;
+    transition: opacity 0.3s;
+}
+.Menu li:hover>ul {
+    left: 0;
+    opacity:1;
+}
+.Menu ul ul {
+    left:-9999rem;
+    opacity: 0;
+    transition: opacity 0.3
+}
+.Menu ul li:hover>ul {
+    left:90%;
+    opacity: 1;
+
+}
+
+@media only screen and (max-width:600px) {
+    .Menu li {
+        width: 100%;
+    }
+    .Menu a {
+        width: 100%;
+    }
+    .Menu ul {
+        position: relative;
+        z-index: auto;
+        display: none;
+        opacity: 1;
+    }
+    .Menu ul ul {
+        position: relative;
+        z-index: auto;
+        top:0;
+        left: 0;
+        display: none;
+    }
+    .Menu li:hover>ul {
+        display: block;        
+    }
+    .Menu ul li:hover>ul {
+        left:0;
+    }
+
+}

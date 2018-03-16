@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text_Icon_obvious {
+    text-shadow:0 0 1px #ffffff;
+}
+
+
+body {
+    font-family: 'Averia Serif Libre','Microsoft JhengHei', DFKai-sb, PMingLiU;
+    
+}
+header {
+    text-align: center;
+    width: 100%;
+    height: 12rem;
+    height: 16rem;
+    vertical-align: middle;
+    background-image: url("photo/pexels-photo-207130.jpeg");
+    background-size:cover; 
+}
+header a {
+    text-decoration-line: none;
+    color: #8FBC8F;
+}
+
+.background_Color_simple {
+    background-color: #c9c9c9;
+}
+.background_Color_obvious {
+    background-color: rgb(253, 253, 109);
+}
+.background_Color_white_opacity {
+    background-color: rgba(255, 255, 255,0.8);
+}
+.background_Color_linergradient {
+    background: linear-gradient(to right top,rgb(251, 218, 175)12%, rgb(141, 103, 151), rgb(99, 69, 133), rgb(66, 49, 117)40%, rgb(29, 20, 65)80%);
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("photo/search.png");
+    background-size: 2rem;
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 2rem;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(116, 90, 146); 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(57, 38, 112, 0.8); 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(53, 38, 99); 
+}
+.rightcontent_Simpleintroduce {
+    display: inline-block;
+    text-decoration-line: none;
+    color: rgb(21, 10, 122);
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.rightcontent_Simpleintroduce::before {
+    content: "<";
+}
+.rightcontent_Simpleintroduce::after {
+    content: ">";
+}

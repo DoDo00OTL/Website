@@ -1,0 +1,128 @@
+
+.icon_Easysee {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* icon Facebook */
+.icon_Facebook:link {
+
+    top:11.5rem;
+    left:11rem;
+    z-index: 5;
+    
+}
+.icon_Facebook:visited {
+ 
+    z-index: 5;
+   
+}
+.icon_Facebook:hover {
+    z-index: 5;
+}
+.icon_Facebook:active{
+    z-index: 5;
+}
+.icon_Facebook:link>i {
+    right:5rem;
+    color: #002f94;
+    opacity: 1.0;
+    z-index: 5;
+    /* translate (x軸,y軸) */
+    transform: translate(-50%, -50%);
+    transition: font-size 0.2s;
+}
+.icon_Facebook:visited>i {
+    color: #002f94;
+    opacity: 1;
+    transition: font-size 0.2s;
+}
+
+.icon_Facebook:hover>i {
+   
+    font-size: 2.5rem;
+}
+
+.icon_Facebook:active>i {
+    z-index: 5;
+    font-size: 2rem;
+}
+/* icon Line */
+.icon_Line:link {
+    z-index: 5;
+    left: 7rem;
+    top: 11.5rem;
+}
+.icon_Line:visited {
+    z-index: 5;
+}
+.icon_Line:hover {
+    z-index: 5;
+}
+.icon_Line:active {
+    z-index: 5;
+}
+.icon_Line:link>i {
+    color: rgb(6, 165, 6);
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: font-size 0.2s;
+}
+.icon_Line:visited>i {
+    color: rgb(6, 165, 6);
+    opacity: 1;
+    transition: font-size 0.2s;
+}
+.icon_Line:hover>i {
+    
+    font-size: 2.5rem;
+}
+
+.icon_Line:active>i {
+    font-size: 2rem;
+}
+/* icon twitter */
+.icon_Twitter:link {
+    top: 11.5rem;
+    left: 3rem;
+    z-index: 5;
+}
+.icon_Twitter:visited {
+    z-index: 5;
+
+}
+.icon_Twitter:hover {
+    z-index: 5;
+    
+}
+.icon_Twitter:active {
+    z-index: 5;
+
+}
+.icon_Twitter:link>i {
+    z-index: 5;
+    color: rgb(0, 98, 245);
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: font-size 0.2s;
+}
+.icon_Twitter:visited>i {
+    z-index: 5;
+    color: rgb(0, 98, 245);
+    opacity: 1;
+    transition: font-size 0.2s;       
+}
+.icon_Twitter:hover>i {
+    z-index: 5;
+    
+    font-size: 2.5rem;
+}
+.icon_Twitter:active>i {
+    z-index: 5;
+    
+    font-size: 2rem;
+}
+.text_Icon_obvious {
+    text-shadow:0 0 1px #ffffff;
+}

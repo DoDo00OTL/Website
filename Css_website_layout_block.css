@@ -1,0 +1,116 @@
+.block_Small_visible {
+    height: 10rem;
+    overflow: hidden;
+}
+
+.block_Center {
+    margin: 0 auto;
+}
+/* position */
+.block_Position_commend {
+    position: relative;
+}
+.block_Position_hard {
+    position: absolute;
+}
+.block_Position_fix {
+    position: fixed;
+}
+
+/* To let the block be seen  */
+.block_Devlopment {
+    margin: 2rem;
+}
+/* To let the text be seen  */
+.block_Navigation_l {
+    padding: 4rem;
+}
+
+.block_Navigation_m {
+    padding: 2rem;
+}
+
+.block_Navigation_s {
+    padding: 1rem;
+}
+/* 增加底邊 */
+.block_Strong_indark {
+    border-bottom: 1px solid #d6d4d4;;
+}
+.block_Strong_inarticle {
+    border-bottom: 4px solid rgb(122, 10, 122);
+}
+
+.block_Align_right {
+    float: right;
+}
+.block_Align_fleft {
+    float: left;
+}
+.block_Align_left {
+    display: inline-block;
+}
+.block_Divide {
+    margin-bottom: 2.5rem;
+    
+}
+.block_Shadow {
+    box-shadow: 0.1rem 0.25rem 0.625rem 0 rgba(0, 0, 0, 0.2), 0.2rem 0.5rem 1.1rem 0 rgba(0, 0, 0, 0.19)
+
+}
+.block_Focus {
+    
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0; 
+    transform: scale(1);
+    transition: transform 0.5s, background-color 0.5s;
+}
+.block_Focus:hover {
+    background-color: #fdfaf4;
+    transform: scale(1.05);
+    
+   
+}
+.block_Sea_smooth_l {
+    border-radius: 0.8rem;
+}
+.block_Sea_smooth_m {
+    border-radius: 0.5rem;
+}
+.block_Sea_smooth_s {
+    border-radius: 0.2rem;
+}
+.icon_Easysee {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.Divide_block {
+    float: left;
+    padding: 2rem;
+}
+.block_Return {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    bottom: 2rem;
+    line-height: 3rem;
+    border-radius: 0.2rem;
+    right: 2rem;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    box-shadow: 1px 1px 5px rgb(194, 194, 194);
+}
+.block_Return a {
+    display: block;
+    text-decoration-line: none;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(51, 51, 51), 0 0 2px rgb(177, 177, 177);
+}
+@media only screen and (max-width:600px) {
+    .block_Return {
+        right:0.3rem;
+        bottom:0.3rem;
+    }
+}
