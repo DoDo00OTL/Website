@@ -53,7 +53,7 @@ nav {
     background: linear-gradient(to right bottom, rgba(41, 80, 139, 0.8), rgb(29, 20, 65)90% );
 }
 
-.Menu i a:visited {
+.Menu li a:visited {
     background: linear-gradient(to right bottom, rgba(41, 80, 139, 0.8), rgb(29, 20, 65)90% );
 }
 
